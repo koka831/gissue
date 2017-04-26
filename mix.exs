@@ -14,8 +14,7 @@ defmodule Gissue.Mixfile do
   #
   # Type "mix help compile.app" for more information
   def application do
-    # Specify extra applications you'll use from Erlang/Elixir
-    [extra_applications: [:logger]]
+    [applications: [:logger, :httpoison]]
   end
 
   # Dependencies can be Hex packages:
@@ -28,6 +27,9 @@ defmodule Gissue.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    []
+    [
+      httpoison: "~> 0.8",
+      poison: "~> 1.5"
+    ]
   end
 end
