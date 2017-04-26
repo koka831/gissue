@@ -2,6 +2,10 @@
 
 **TODO: Add description**
 
+## about
+プログラミングElixirのsample project.
+did my best for trying to write comments in English.
+
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
