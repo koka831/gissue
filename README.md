@@ -6,6 +6,10 @@
 プログラミングElixirのsample project.
 did my best for trying to write comments in English.
 
+## Usage
+
+`./gissue <user> <project> <count>`
+
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
