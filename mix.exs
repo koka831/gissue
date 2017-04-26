@@ -3,6 +3,7 @@ defmodule Gissue.Mixfile do
 
   def project do
     [app: :gissue,
+     escript: escript_config(),
      version: "0.1.0",
      elixir: "~> 1.4",
      build_embedded: Mix.env == :prod,
@@ -31,5 +32,9 @@ defmodule Gissue.Mixfile do
       httpoison: "~> 0.8",
       poison: "~> 1.5"
     ]
+  end
+
+  defp escript_config do
+    [main_module: Gissue.CLI]
   end
 end
